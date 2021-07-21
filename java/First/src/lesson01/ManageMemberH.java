@@ -3,6 +3,8 @@ package lesson01;
 import java.util.HashMap;
 import java.util.Iterator;
 
+// 생성된 멤버들의 정보를 받아 Hash map으로 만들어 관리하는 클래스
+
 public class ManageMemberH {
 	
 	private HashMap<Integer, Member> hashMap;
