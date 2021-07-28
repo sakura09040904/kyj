@@ -1,6 +1,6 @@
 package lesson01;
 
-public class ManageMemgerHTest {
+public class ManageMemberHTest {
 
 	public static void main(String[] args) {
 		ManageMemberH memberHash = new ManageMemberH();
