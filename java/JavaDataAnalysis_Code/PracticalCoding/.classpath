@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/developer/jdk-11.0.11/lib/commons_math/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/developer/jdk-11.0.11/lib/poi-5.0/poi-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/developer/jdk-11.0.11/lib/weka/remoteExperimentServer.jar"/>
+	<classpathentry kind="lib" path="C:/developer/jdk-11.0.11/lib/weka/weka.jar"/>
+	<classpathentry kind="lib" path="C:/developer/jdk-11.0.11/lib/weka/weka-src.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

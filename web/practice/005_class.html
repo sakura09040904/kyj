@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .city{ /* 클래스 선택자, class="city"에 적용 */
+                background-color: tomato;
+                color: white;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+            }
+
+            #seoul{ /* 아이디 선택자, id="seoul"에 적용 */
+                background-color: yellowgreen;
+                color: white;
+                border: 5px dotted red;
+                margin: 50px;
+                padding: 50px;
+            }
+
+            .bgimg{
+                background-image: url("img/img_girl.jpg");
+            }
+
+        </style>
+
+        <script>
+            function myFunction(){
+                var x = document.getElementsByClassName("city");
+                for (var i =0; i<x.length; i++){
+                    x[i].style.display = "none";
+                }
+            }
+        </script>
+
+    </head>
+
+    <body onload="myFunction();">
+        
+        <div class = "city bgimg">
+            <h2>London</h2>
+            <p>London is the capital of UK</p>
+        </div>
+
+        <div class = "city">
+            <h2>Paris</h2>                
+            <p>Paris is the capital of France</p>
+        </div>
+
+        <div class="bgimg" id="seoul">
+            <h2>Seoul</h2>
+            <p>Seoul is the capital of Korea.</p>
+        </div>
+
+        <div class ="city">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    
+    
+    </body>
+</html>

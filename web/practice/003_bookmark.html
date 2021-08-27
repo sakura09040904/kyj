@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-witdh, initial-scale=1.0">
+    </head>
+</html>
+<!-- List만들기
+    ul(순서없음)/ ol(순서있음) / dl(Define) 
+    li(리스팅)
+
+    #: 연결태그
+-->
+<body>
+    <div>
+        <p id="top0">목차</p>
+        <ul>
+            <a href="#Harry Potter"><li>해리포터</li></a>
+            <li>론위즐리</li>
+            <a href="#Prodo Bagins"><li>프로도 배긴스</li></a>
+            <li>샘 와이즈</li>
+            <li>골룸</li>
+        </ul>
+    </div>
+  
+    <p><img src="img/smiley.gif" alt="Smiley face" style="float: right; width: 42px; height: 42px;">
+    The image will float to the right of the text</p>
+    <p><img src="img/smiley.gif" alt="Smiley face" style="float: left; width: 42px; height: 42px;">
+    The image will float to the left of the text</p>
+
+    <!-- 
+        map: 이미지의 일부를 클릭할 수 있도록 버튼처럼 사용.
+        <img>태그의 usemap 속성을 <map>태그의 name 속성과 연결하여 사용.
+        하나 이상의 <area>태그를 가지며, 이 <area>태그가 바로 버튼과 같은 역할.
+     -->
+    <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name = "workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.daum.net">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.naver.com">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.google.com">
+    </map>
+
+    <img src="img/everland.jpg" alt="Everland" usemap = "#everland">
+    <map name = "everland">
+        <area shape="rect" coords="245,114,364,178" alt="central stage" href="https://www.daum.net">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.naver.com">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.google.com">
+    </map>
+
+</body>

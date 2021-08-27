@@ -1,0 +1,51 @@
+Windows cmd ---------------------------------------------------------------------
+
+C:\kyj>mkdir data
+C:\kyj>cd data
+C:\kyj\data>mkdir db
+raw SQL
+
+C:\> cd kyj (db 설치 dir)
+C:\> mongo
+
+show dbs : 현재 상태
+
+use 사용할 db명( ex. use test) : db change
+
+db  :  현재 사용 db
+
+db.createCollection('name') : Collection 생성
+
+db.name.save({col:'value'}) : Collection 내 항목 생성
+
+db.name.find() : Collction 항목 조회
+db.name.find({'price':{$gte:100000}}) : price >= 100000 항목조회
+($eq(==), $ne(!=), $lt(<), $lte(<=), $gt(>), $gte(>=))
+{'price':{$gte:100000, $lte:300000}} : 100000<= price <= 300000
+
+
+db.name.insert([{col1:'val11', col2:'val12'},{col1:'val21', col2:'val22'}])
+
+db.name.remove({col:'val1'})
+
+db.name.update({'col':'val1'},{$set:{col2:val2}})
+
+
+
+
+PowerShell ------------------------------------------------------------------
+
+anaconda powershell 관리자 권한으로 실행
+
+conda list : 설치된 Library 조회
+
+conda install pymongo 로 설치
+
+Spyder ----------------------------------------------------------------------
+
+from pymongo import MongoClient
+
+conn = MongoClient('mongodb://localhost:27017/') # MongoDB 연결 객체 생성
+
+print(conn.list_database_names()) # 설치된 db name
+

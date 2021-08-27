@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<!-- 
+    meta TAG : 웹 서버와 웹 브라우저 간에 상호 교환되는 정보를 정의 (head에 입력)
+    http-equiv="항목명": 웹 브라우저가 서버에 명령을 내리는 속성. name 속성을 대신하여 사용
+                        HTML 문서가 응답 헤더와 함께 웹 서버로부터 웹 브라우저에 전송되었을 때
+                        <http-equiv="X-UA-Compatible"> 브라우저 호환성 지정.
+    content="정보값" : meta 정보의 내용을 지정
+    name="정보 이름" : 
+-->        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name ="viewport" content="width=device-width, initial-scalw=1.0">
+        <title>Document</title>
+     <!-- internal style -->   
+        <style>
+            div{
+                color :gold
+            }
+        </style>
+         
+     <!-- external style -->
+        <link rel="stylesheet" href="css/style.css">
+        
+
+    </head>
+    <body>
+        <!-- 스타일 적용의 우선순위
+            1. 인라인 스타일
+            2. 내부 / 외부 스타일 시트(internal/external)
+            3. 웹브라우저 기본 스타일-->
+
+        <!-- inline style -->
+        <p style="color: red;">inline style 학습을 위한 문단
+            <a href="https://www.daum.net" target="linksite">다음으로 가요~</a><br>
+            <a href="https://github.com/swcodingschool" target="linksite">깃헙으로 가요~</a><br>
+        </p>
+
+        <div>
+            <p>
+                div 엘리먼트에 대해서는 internal style 적용했습니다.
+            </p>
+        </div>
+
+        <div>
+            이 div는 또 다른 div 엘리먼트 입니다.
+        </div>
+
+        <h1> 이것은 H1이고요.. </h1>
+
+
+    </body>
+</html>

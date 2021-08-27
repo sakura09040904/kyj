@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #t01{
+                border:0px;
+                width: 85%;
+                background-color: #f1f1C1;
+            }
+            #t01 tr:nth-child(even){
+                border-bottom: 1px solid lightgray;
+                border-top: 1px solid lightgray;
+                background-color: #eee;
+            } 
+            #t01 tr:nth-child(odd){
+                background-color: #fff;
+            }
+            #t01 th{
+                color: white;
+                background-color: black;
+            }
+            table,th,td{
+                border: 0px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding: 15px;
+            }
+            th{
+                text-align: center;
+            }
+            td{
+                text-align: justify;
+            }
+
+            .w3-card,.w3-card-2{
+                box-shadow: 0 2px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
+            }
+            .w3-card-4,.w3-hover-shadow:hover{
+                box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+            }
+            
+        </style>
+    </head>
+    <!-- 
+        tr:nth-child(even): 짝수번째 열 / tr:nth-child(odd): 홀수번째 열 
+        th: 각 열의 제목
+        td: cell
+        border-collapse: collapse 테이블의 테두리를 한줄로 표현
+        padding 영역: 내용과 테두리 사이 간격
+        w3-card: contents에 대한 컨테이너
+        w3-card-2/4 : 2px/4px의 border 그림자
+        w3-card-hover-shadow: 마우스 오버에 그림자 효과를 추가 (w3-card-4와 같은 스타일)
+
+
+    -->
+
+    <body>
+        <table id = "t01">
+            <caption>Table Demo</caption>
+            <tr>
+                <th>1열</th>
+                <th>2열</th>
+                <th>3열</th>
+            </tr>
+
+            <tr>
+                <td rowspan=2>Korea</td>
+                <td>6천만</td>
+                <td>동아시아<td>
+            </tr>
+            <tr>
+                <td colspan=2>1억2천만</td>
+            </tr>
+            <tr>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+            </tr>
+            <tr>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+            </tr>
+            <tr>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+            </tr>
+            <tr>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+                <td>dkdkdkdkd</td>
+            </tr>
+        </table>
+    
+        <table>
+            <caption>Table Demo</caption>
+            <tr>
+                <th>1열</td>
+                <th>2열</td>
+                <th>3열</th>
+            </tr>
+            <tr>
+                <td rowspan=2>Korea</td>
+                <td>6천만</td>
+                <td>동아시아</td>
+            </tr>
+            <tr>
+                <td colspan=2>1억2천만</td>
+            </tr>
+
+        </table>
+    </body>
+
+</html>

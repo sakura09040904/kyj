@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 사용을 위한 추가 -->        
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    <title>Alert</title>
+</head>
+<body>
+    <!--alert-success : success color의 alert 생성
+        alert-dismissible : alert를 사라지게 할 수 있는 
+        fade show : 천천히 사라지게 함
+        button class: Button종류 / data-dismiss : 사라질 data 
+        &times; : 특수문자 X -->
+
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;
+        </button>
+        <strong>Success!</strong> You should <a href="https://www.naver.com" class="alert-link">read this message</a>.
+    </div>
+    <div class="alert alert-info alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;
+        </button>
+        <strong>Info!</strong> You should <a href="https://www.daum.net" class="alert-link">read this message</a>.
+    </div>
+</body>
+</html>
