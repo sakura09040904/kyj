@@ -1,0 +1,28 @@
+R
+R :
+https://cran.r-project.org/
+R-studio :
+www.rstudio.com/
+
+JAVA
+OpenJDK  : 
+oracle.com
+(https://openjdk.java.net)
+Eclipse :  
+https://www.eclipse.org
+d2coding font download link
+https://github.com/naver/d2codingfont 
+
+Python
+python:
+https://www.python.org/
+pycharm:
+https://www.jetbrains.com/
+
+Web Crolling(HTML, CSS 등)
+Visual Studio Code: 
+https://code.visualstudio.com/
+
+Data Base
+MYSQL
+Oracle DB (SQL Developer도 함께 설치)

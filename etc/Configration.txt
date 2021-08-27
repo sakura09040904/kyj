@@ -1,0 +1,52 @@
+7/15
+
+installer : 레지스트리에 등록됨
+compressed archive : zip파일로
+
+1. JAVA
+
+1) Configration
+
+- JDK & OpenJDK (Java SE Development Kit)
+ : oracle.com & https://openjdk.java.net  (java8의 경우 jdk/jre 모두 설치필요)
+- Eclipse
+ : https://www.eclipse.org
+
+① 기 설치 프로그램 제거
+가. 환경변수에서 JAVA_HOME, path 등록 정보 제거
+나. 프로그램 제거
+    방법 1. installer를 통해 설치된 프로그램 제거
+       설정 >  앱 > 앱 및 기능,  Java Development Kit, Java Runtime Envrionment, Git, Eclipse 등을 찾아 제거
+   방법 2. package 방식으로 설치된 프로그램 제거
+       C:\Program Files\Java 등... 설치된 프로그램의 폴더를 찾아서 모두 제거
+
+② JDK 다운로드 및 설치
+사이트(oracle 또는 OpenJDK)를 방문, 패키지 배포판을 다운로드 받아 설치를 진행한다.
+패키지 배포판의설치는 압축을 해제하고 설치하고자 하는 폴더로 이동하는 방법으로 진행한다.
+
+③ 환경변수 등록 (JAVA Home directory: C:\developer\jdk-11.0.11)
+내PC > 속성 > 고급시스템설정 > 환경변수 > 시스템 변수에
+JAVA_HOME 변수 등록하고,  (변수이름: JAVA_HOME / 변수값: Home directory)
+path에 bin 폴더까지 추가 등록 (환경변수 새로만들기: %JAVA_HOME%\bin)
+- 확인: 실행창(cmd)에서 java --version / javac --version 으로 버전확인
+- openjdk의 경우,  환경변수 JAVA_HOME의 변수값을 변경 (C:\developer\openjdk-11.0.1)
+
+④ Eclipse 다운로드 및 설치
+사이트(eclipse.org) 방문, 패키지 배포판 다운로드 받아 설치 진행
+
+
+2) Eclipse 실행, 첫 프로그램 작성 및 실행
+
+① eclipse를 실행하고, workspace에 적절한 폴더를 등록(수업에서는 c:\kyj\java)
+
+② ecllipse의 open perspective -> java, debug 추가 AND
+Window - Preferences - General - Appearance - Colors and Fonts - Basic -Text Fonts - Edit (D2Coding설치 후 선택)
+General - Workspace - Text file encoding (other: UTF-8)
+Preferences - Web - CSS File/HTML/JSP File - Encoding (UTF-8)
+
+③ 프로젝트 생성 : File > New > Project 클릭,  프로젝트의 이름을 넣고 Finish...
+    		(Module Info Create 여부 확인에서는 Don't Create 선택)
+
+④ 패키지 생성 :  src 마우스 우클릭, New > Package 클릭, 패키지 이름, 수업에서는 com.example.first로...
+
+⑤ 클래스 생성 :  만들어진 패키지 마우스 우클릭, New > Class 클릭, 클래스 이름 입력하여 클래스 생성
