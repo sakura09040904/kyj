@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-import seaborn as sns
+import seaborn as sns # interactive plot 제공, 내장 dataset 제공
 
 boston = load_boston() # 데이터셋 다운로드
 boston_df = pd.DataFrame(boston.data, columns=boston.feature_names) # 데이터프레임으로 저장
