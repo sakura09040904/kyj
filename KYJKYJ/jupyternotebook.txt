@@ -1,0 +1,16 @@
+C:/ -> 사용자 -> 계정 -> .jupyter -> jupyter_notebook_config -> notebook_dir (C:/kyj/python)
+
+cmd -> jupyter notebook
+
+
+
+[Jupyter Notebook Configuration]
+실행창 열고 유저 디렉토리에서 다음 명령을 실행
+c:\.....> jupyter notebook --generate-configure 
+유저 디렉토리에 .jupyter  폴더가 생성되며 파일 생성되면
+c:\...> cd .jupyter 
+명령어로 디렉토리 이동하고...
+c:\....> notepad 생성된파일이름
+으로 파일 열고...
+Ctrl+F 단축키로 notebooK_dir  찾아서
+주석 해제하고....  ''   부분에 파이썬 생성 기본 폴더로 사용할 폴더를 적어준다.

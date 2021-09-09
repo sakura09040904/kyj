@@ -1,0 +1,23 @@
+Gephi -> etc -> gephi (config파일) txt로 open
+
+-> default_options= 메모리설정
+-> jdkhome="C:/developer/jdk-11.0.11" (jdk설치 위치로 설정. 주석 해제)
+
+- Data
+file - import spreadsheet (csv file) 
+Graph type : undirected (키워드 간의 연관성 X)
+
+- Overwiew
+Statistics
+Average Degree : Node(키워드) 당 몇개의 edge(connected line)를 가지는지
+Modulity : 군집도
+Eigenvector Centrality : 고유벡터 중심성(노드(node)의 상대적 중요성을 나타내는 척도)
+
+Filter 
+Topology- Degree Range 추가
+Attribute - Partition - Modulility 추가
+
+Appearances - Node(2nd Icon) - Ranking - EigenVector
+Appearances - Node(1st Icon) - Partition - Modularity Class
+
+Layout - Force Atlas 2 - Tuning(Scailing :)

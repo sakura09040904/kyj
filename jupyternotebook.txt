@@ -1,4 +1,0 @@
-C:/ -> 사용자 -> 계정 -> .jupyter -> jupyter_notebook_config -> notebook_dir (C:/kyj/python)
-
-cmd -> jupyter notebook
-
