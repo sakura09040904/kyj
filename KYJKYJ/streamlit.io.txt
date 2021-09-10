@@ -6,3 +6,20 @@ C:\Users\user9\AppData\Roaming\Python\Python38\Scripts 환경변수 path 등록
 (AppData 접근: 파일탐색기-보기-숨긴항목표시)
 
 streamlit hello
+
+C:\kyj\appstream(파일dir)> streamlit run firstapp.py(파일이름)
+
+실행된 브라우저에 새로고침 할때마다 변경된 사항이 Update됨
+command mode: ctrl+c
+
+https://docs.streamlit.io/en/stable/getting_started.html
+
+import streamlit as st
+st.title('')
+st.write('')
+st.line_chart()
+st.map()
+if st.checkbox():
+option = st.selectbox()
+
+
