@@ -1,0 +1,8 @@
+cmd (Anaconda path 설정이 안되어 있는경우, Anaconda shell에서 실행)
+pip install --upgrade pip --user
+pip install streamlit --user
+
+C:\Users\user9\AppData\Roaming\Python\Python38\Scripts 환경변수 path 등록
+(AppData 접근: 파일탐색기-보기-숨긴항목표시)
+
+streamlit hello

@@ -11,7 +11,7 @@
 -- and : join 
 -- group by 속성(리스트) having 조건  : (조건에 맞는)속성을 그룹지어 관리(ex. 부분합)
 -- order by 속성(리스트) asc/desc    : 속성을 기준으로 오름차순/내림차순 정렬
--- order by 속성 limit 20; : 최근 데이터 순으로 20개 출력
+-- order by 속성(날짜.시간관련) desc limit 20; : 최근 데이터 순으로 20개 출력
 
 -- Table명 as 별명 : 별명으로 사용
 -- 집계함수 : count(), min(), max(), sum(숫자만), avg(숫자만)
